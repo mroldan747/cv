@@ -774,5 +774,11 @@ svg circle:nth-child(2) {
         padding: 0;
         margin: 0.5rem;
     }
+    
+    .image3-info p {
+        margin: 0.3rem 0.5rem 0 0.5rem;
+    }
+    
+}
 
 }

@@ -16,3 +16,8 @@ burger.addEventListener('click', () => {
     burger.classList.toggle('active');
     menu.classList.toggle('open');
 })
+
+$('.item').on('click', function () {
+    $('.btn-burger').removeClass('active');
+    $('.menu-burger').removeClass('open');
+})

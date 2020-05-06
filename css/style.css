@@ -32,7 +32,9 @@ header {
     height: 4vw;
     padding: 0;
 }
-
+.icon-top {
+    display: none;
+}
 .logo {
     line-height: 60px;
     position: fixed;
@@ -68,10 +70,13 @@ header {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.navbar.black .logo {
+.navbar.black ul li a {
     color: #fff;
 }
-
+.logo.white {
+    color: #fff;
+    z-index: 10000;
+}
 .navbar ul li {
     display: inline-block;
     padding: 16px 20px;
@@ -80,7 +85,7 @@ header {
 
 .navbar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: transparent;
     font-size: 16px;
 }
 
@@ -304,7 +309,7 @@ header {
 }
 
 .formation-info {
-    color: #283D3B;
+    color: #fff;
 }
 
 .formation-info p {
@@ -450,6 +455,7 @@ svg circle:nth-child(2) {
 
 .images img{
     border-radius: 15px;
+    margin: 1rem 1rem;
 }
 
 .info-images {
@@ -463,9 +469,10 @@ svg circle:nth-child(2) {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.9);
     width: 66%;
-    height: 100%;
+    height: 85%;
     border-radius: 15px;
     text-align: center;
+    top: 7.6%;
 }
 /* CONTACT */
 
@@ -529,7 +536,22 @@ svg circle:nth-child(2) {
     h1 {
         font-size: 2rem;
     }
+    .icon-top {
+        display: initial;
+        width: 80%;
+        position: relative;
+        left:80%;
+        font-size: 2rem;
+    }
 
+    .gray a {
+        color: #4B5358;
+    }
+
+    .iwhite a {
+        color: #fff;
+        padding-bottom: 2rem;
+    }
     .title {
         top: 195px;
         left: 48%;
@@ -547,6 +569,12 @@ svg circle:nth-child(2) {
         padding: 0;
     }
 
+    .container-infos {
+        margin: 2rem 0;
+    }
+    .competences {
+        padding-bottom: 1rem;
+    }
     .container-langues {
         flex-direction: column;
         align-items: center;
@@ -588,12 +616,20 @@ svg circle:nth-child(2) {
         top: 11px;
     }
 
+    .formations {
+        padding-bottom: 1rem;
+    }
+
     .container-langues .card {
         height: 250px;
     }
 
     .percent .number h2 {
         font-size: 2rem;
+    }
+
+    .portfolio, .contact {
+        padding-bottom: 1rem;
     }
 
     .contact .icons a {
@@ -605,6 +641,7 @@ svg circle:nth-child(2) {
     }
 
     .logo {
+        color: #283D3B;
         position: absolute;
         margin: 0;
         top: 7px;
@@ -612,14 +649,14 @@ svg circle:nth-child(2) {
     }
 
     /*MENU BURGER*/
+
     .btn-burger {
         width: 40px;
         height: 40px;
         cursor: pointer;
-        position: relative;
         position: absolute;
-        left: 267px;
-        top: 11px;
+        left: 80%;
+        top: 18px;
     }
 
     .btn-burger span {

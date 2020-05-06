@@ -522,6 +522,16 @@ svg circle:nth-child(2) {
         display: none;
     }
 
+    .mail:hover+p {
+        top: -51px;
+        left: 30%;
+    }
+
+    .mobile:hover+p {
+        top: -51px;
+        left: 19%;
+    }
+
     .dates-left {
         left: 156px;
     }
@@ -569,6 +579,14 @@ svg circle:nth-child(2) {
         padding: 0;
     }
 
+    .mail:hover+p {
+        left: 11%;
+        top:-50px;
+    }
+    .mobile:hover+p {
+        left: 10%;
+        top:-50px;
+    }
     .container-infos {
         margin: 2rem 0;
     }
@@ -639,6 +657,16 @@ svg circle:nth-child(2) {
     .contact h1 {
         padding-top: 0rem;
     }
+    .contact .mobile:hover+p {
+        position: relative;
+        top: -10px;
+        left: -14px;
+    }
+    .contact .mail:hover+p {
+        position: absolute;
+        top: 46px;
+        left: 127px;
+    }
 
     .logo {
         color: #283D3B;
@@ -647,6 +675,7 @@ svg circle:nth-child(2) {
         top: 7px;
         left: 19px;
     }
+
 
     /*MENU BURGER*/
 

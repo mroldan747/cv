@@ -564,11 +564,10 @@ svg circle:nth-child(2) {
     }
 
     .icon-top {
-        display: initial;
-        width: 80%;
-        position: relative;
-        left: 80%;
         font-size: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
     }
 
     .gray a {

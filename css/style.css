@@ -516,7 +516,12 @@ svg circle:nth-child(2) {
     top: -129px;
     left: -26px;
 }
-
+.contact .cv:hover +p {
+    display: initial;
+    position: relative;
+    top: -95%;
+    left: -50%;
+}
 .menu-burger {
     display: none;
 }
@@ -618,15 +623,12 @@ svg circle:nth-child(2) {
         margin: 2rem 0;
     }
 
-
-
     .competences {
         padding-bottom: 1rem;
     }
     .experiences, .middle, .formations {
         text-align: center;
     }
-    
 
     .up {
         display: initial;
@@ -661,7 +663,6 @@ svg circle:nth-child(2) {
         text-align: center;
     }
 
-
     .formations {
         padding-bottom: 1rem;
     }
@@ -685,6 +686,7 @@ svg circle:nth-child(2) {
 
     .contact .icons a {
         font-size: 3rem;
+        padding: 0;
     }
 
     .contact h1 {
@@ -693,14 +695,18 @@ svg circle:nth-child(2) {
 
     .contact .mobile:hover+p {
         position: relative;
-        top: -10px;
-        left: -14px;
+        top: -2%;
+        left: -30%
     }
 
     .contact .mail:hover+p {
         position: absolute;
-        top: 46px;
-        left: 127px;
+        top: 56%;
+        left: 50%;
+    }
+    .contact .cv:hover +p {
+        top: 69%;
+        left: -50%;
     }
 
     .logo {

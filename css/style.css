@@ -638,7 +638,7 @@ svg circle:nth-child(2) {
     }
 
     .dates-left {
-        left: 67px;
+        left: 25%;
     }
 
     .arrow-right {
@@ -647,7 +647,7 @@ svg circle:nth-child(2) {
 
     .dates-right {
         position: relative;
-        left: 67px
+        left: 25%;
     }
 
     .arrow-left {

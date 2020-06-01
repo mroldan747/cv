@@ -831,24 +831,12 @@ svg circle:nth-child(2) {
         width: 100%;
     }
 
-    .image1:hover>.image1-info,
-    .image2:hover>.image2-info,
-    .image3:hover>.image3-info,
-    .image4:hover>.image4-info {
-        width: 92%;
-        height: 83%;
-        text-align: center;
-    }
 
     .image2-info p,
     .image3-info p,
     .image4-info p {
         padding: 0;
         margin: 0.5rem;
-    }
-
-    .image3-info p {
-        margin: 0.2rem auto 0rem auto;
     }
 
     /* PORTFOLIO */

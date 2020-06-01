@@ -560,7 +560,33 @@ svg circle:nth-child(2) {
     .arrow-right {
         left: 164px;
     }
+    /* PORTFOLIO */
 
+    .info-images {
+        display: initial;
+    }
+
+    .image1:hover>.image1-info,
+    .image2:hover>.image2-info,
+    .image3:hover>.image3-info,
+    .image4:hover>.image4-info {
+        display: initial;
+        position: initial;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        border-radius: initial;
+        text-align: initial;
+        top: initial;
+    }
+
+    .info-images p, .info-images div {
+        color: #fff;
+    }
+
+    .image3-info p {
+        margin: 1rem auto 0rem auto;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -825,6 +851,35 @@ svg circle:nth-child(2) {
         margin: 0.2rem auto 0rem auto;
     }
 
-}
+    /* PORTFOLIO */
+
+    .info-images {
+        display: initial;
+    }
+
+    .image1:hover>.image1-info,
+    .image2:hover>.image2-info,
+    .image3:hover>.image3-info,
+    .image4:hover>.image4-info {
+        display: initial;
+        position: initial;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        border-radius: initial;
+        text-align: initial;
+        top: initial;
+    }
+
+    .info-images p, .info-images div {
+        color: #fff;
+    }
+
+    .image3-info p {
+        margin: 1rem auto 0rem auto;
+    }
+
+
 
 }
+
